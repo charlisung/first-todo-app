@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #2b2b2b;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 36px;
+}
+
+.container {
+  width: 500px;
+  padding: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 350px;
+    padding: 30px;
+  }
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.todo-item {
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.todo-item:hover {
+  border: 1px solid #fac10a;
+  border-radius: 4px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  margin: 7px 10px 5px 5px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+input[type="text"] {
+  border: none;
+  outline: 0;
+}
+
+.progress {
+  height: 30px;
+  line-height: 2px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.progress span {
+  position: absolute;
+  display: block;
+  width: 100%;
+  /* color: black; */
+}
+
+.progress-bar {
+  text-align: center;
+}
+
+.btn.btn-outline-danger {
+  width: 100%;
+}
