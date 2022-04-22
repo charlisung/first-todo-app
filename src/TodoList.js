@@ -60,7 +60,7 @@ export default function TodoList({
                                 : null
                             }
                           >
-                            <div>
+                            <div className="todo-li">
                               <input
                                 type="checkbox"
                                 checked={todo.completed}

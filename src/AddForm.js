@@ -6,7 +6,7 @@ export default function AddForm({ inputHandle, inputSubmit, todo }) {
     <form onSubmit={inputSubmit} className="form-control">
       <input
         type="text"
-        placeholder="write todo..."
+        placeholder="Write todo..."
         value={todo.text}
         onChange={inputHandle}
       />

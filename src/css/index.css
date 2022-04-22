@@ -51,6 +51,8 @@ button {
 .todo-item {
   border: 1px solid transparent;
   border-radius: 4px;
+  overflow-y: auto;
+  overflow-wrap: break-word;
 }
 
 .todo-item:hover {
